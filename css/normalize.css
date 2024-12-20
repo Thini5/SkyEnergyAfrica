@@ -529,6 +529,14 @@ Preloader Area CSS
 .breadcrumbs h2{
 	color: #fff;
 	text-transform:capitalize;
+	font-size: 55px;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumbs h1{
+	color: #fff;
+	text-transform:capitalize;
 	font-size: 45px;
 	font-weight: 700;
 	margin: 0;

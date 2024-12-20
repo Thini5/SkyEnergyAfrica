@@ -596,137 +596,34 @@ body{
 	
 }
 .slider .single-slider .text{
-	margin-top:120px;
-}
-
-
-
-
-
-/* General Styling for .texts */
-.single-slider .texts {
-    margin-top: 120px; /* Default margin-top */
-    margin-left: 300px; /* Default margin-left */
-    text-align: center;
-    width: 80%; /* Adjust the width as needed for responsiveness */
-    max-width: 600px; /* Max width to keep it from stretching too much */
-    padding: 20px; /* Add some padding */
-}
-
-/* Responsive adjustments for screen sizes */
-
-/* For screens smaller than 1024px (tablets and smaller) */
-@media (max-width: 1024px) {
-    .single-slider .texts {
-        margin-left: 260px; /* Adjust margin-left on smaller screens */
-        margin-top: 80px; /* Adjust margin-top on smaller screens */
-    }
-}
-/* For screens smaller than 768px (mobile devices) */
-@media (max-width: 991px) {
-    .single-slider .texts {
-        margin-left: 79px; /* Further adjust margin-left */
-        margin-top: 60px; /* Further adjust margin-top */
-		
-    }
-}
-
-
-/* For screens smaller than 768px (mobile devices) */
-@media (max-width: 767px) {
-    .single-slider .texts {
-        margin-left: 60px; /* Further adjust margin-left */
-        margin-top: 60px; /* Further adjust margin-top */
-		
-    }
-}
-
-/* For very small screens (below 480px) */
-@media (max-width: 480px) {
-    .single-slider .texts {
-        margin-left: 52px; /* Adjust margin-left for very small screens */
-        margin-top: 80px; /* Adjust margin-top for very small screens */
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.slider.index2 .single-slider .text{
-	margin-top:150px;
+	margin-top:160px;
+	text-align: center;
 }
 
 .slider .single-slider h1 {
 	color: #fcfdfd;
-	font-size: 38px;
+	font-size: 45px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	
+	margin-bottom: 15px;
 }
+
 .slider .single-slider h1 span{
 	color:#1a76d1;
 }
 
-
-
-
-.slider .single-slider h2 {
-	color: #06a84b;
-	font-size: 38px;
-	font-weight: 700;
-	margin: 0;
-	padding: 0;
-	line-height: 42px;
-	
-	
-}
-.slider .single-slider h2 span{
-	color:#1a76d1;
-}
-
-
 .slider .single-slider p {
 	color: #fbfcfb;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	margin: 0;
 	padding: 0;
 	line-height: 42px;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	
 }
-
-.slider .single-slider h4 {
-	color: #fbfcfb;
-	font-size: 25px;
-	font-weight: 500;
-	margin: 0;
-	padding: 0;
-	line-height: 42px;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	margin-top: 20px;
-}
-
-
-
 
 
 
@@ -734,14 +631,12 @@ body{
 	color:#1a76d1;
 }
 
-
-
 .slider .single-slider h3 {
 	color: #ffffff;
 	margin-top: 27px;
 	font-weight: 500;
 	font-size: 25px;
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 	margin-bottom: 20px;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -754,7 +649,7 @@ body{
 	font-weight:500;
 	display:inline-block;
 	margin:0;
-	margin-right:10px;
+	
 }
 .slider .single-slider .btn:last-child{
 	margin:0;
@@ -778,7 +673,7 @@ body{
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #1A76D1;
+	background: #06a84b;
 	color: #fff;
 	font-size: 26px;
 	position: absolute;
@@ -790,14 +685,14 @@ body{
 	border-radius: 50%;
 }
 .slider .owl-carousel .owl-nav div:hover{
-	background:#2C2D3F;
+	background:#1A76D1;
 	color:#fff;
 }
 .slider .owl-carousel .owl-controls .owl-nav .owl-prev{
-	left:20px;
+	left:15px;
 }
 .slider .owl-carousel .owl-controls .owl-nav .owl-next{
-	right:20px;
+	right:15px;
 }
 
 /* Slider Animation */
@@ -811,7 +706,7 @@ body{
     animation: fadeInDown 1s both 1.5s;
 }
 
-.owl-item.active .single-slider h2{
+.owl-item.active .single-slider .inserted-image{
     animation: fadeInUp 1s both 0.6s;
 }
 .owl-item.active .single-slider h3{
@@ -820,6 +715,12 @@ body{
 .owl-item.active .single-slider h4{
     animation: fadeInUp 1s both 0.6s;
 }
+
+
+
+
+/* Optional: If you want to add some space around the text */
+
 
 /*===========================
 	End Hero Area CSS
@@ -1105,6 +1006,18 @@ body{
 /*===================
 	End Fun Facts
 =====================*/
+
+
+
+
+.views {
+	align-items: center;
+	margin-left: 200px;
+}
+
+
+
+
 
 /*===================
 	Why choose CSS
